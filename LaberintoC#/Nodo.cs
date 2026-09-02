@@ -17,11 +17,12 @@ namespace LaberintoC_
         {
             if (Y != 0)
             {
-                if (Tablero[X * 16 * Y] != 'X')
+                if (Tablero[ (Y-1) * 16 * X] != 'X')
                 {
-
+                    yield return new Nodo { X = this.X, Y = this.Y - 1 };
                 }
             }
+
         }
 
     }
