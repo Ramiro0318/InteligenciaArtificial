@@ -10,7 +10,7 @@ namespace LaberintoC_
         public int G { get; set; }
         public int F
         {
-            get { return H + g; }
+            get { return H + G; }
         }
 
         public int X { get; set; }
@@ -54,6 +54,14 @@ namespace LaberintoC_
             }
 
         }
+
+        public void CalcularH(Nodo final) 
+        {
+            H = Math.Abs(this.X - final.X) + Math.Abs(this.Y - final.Y);
+        }
+
+
+
 
     }
 }
