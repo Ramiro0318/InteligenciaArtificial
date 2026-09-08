@@ -17,6 +17,7 @@ namespace LaberintoC_
         public int Y { get; set; }
         public static int X0;
         public static int Y0;
+        public Nodo? Padre { get; set; }
 
         public static string Tablero { get; set; } = "            ** *                              *           *           * *  *           * *          * *      * * *      * *    *     * *      * *                 *     *          *           *          *     *               *               * **   *        ";
 
@@ -55,6 +56,7 @@ namespace LaberintoC_
 
         }
 
+        
         public void CalcularH(Nodo final) 
         {
             H = Math.Abs(this.X - final.X) + Math.Abs(this.Y - final.Y);
