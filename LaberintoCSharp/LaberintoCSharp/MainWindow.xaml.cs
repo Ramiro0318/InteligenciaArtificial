@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LaberintoC_
+namespace LaberintoCSharp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,12 +23,10 @@ namespace LaberintoC_
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Nodo inicial = new Nodo() { X = 2, Y = 3 };
-            Nodo final = new Nodo() { X = 14, Y = 15 };
-
-            Algoritmo algoritmo = new(final, inicial);
-            algoritmo.Buscar();
-
+            Nodo inicial = new Nodo() { X=1, Y=1 };
+            Nodo final = new Nodo() { X=14,Y=15 };
+            Algoritmo algoritmo = new Algoritmo(final, inicial);
+            var ruta = algoritmo.Buscar();
         }
     }
 }
