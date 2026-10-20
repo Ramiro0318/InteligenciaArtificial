@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="cs-expert-system-shell-master/cs-expert-system-shell/cs-expert-system-shell.csproj" />
   <Project Path="LaberintoC#/LaberintoC#.csproj" />
+  <Project Path="SistemaExperto/SistemaExperto.csproj" Id="01d4c6cd-500c-4377-9872-cf2de936549d" />
 </Solution>
