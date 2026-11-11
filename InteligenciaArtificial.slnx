@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="LaberintoC#/LaberintoC#.csproj" />
+  <Project Path="Nim MinMax/Nim MinMax.csproj" Id="e18464a2-6723-4418-bb2c-ee48866bf3df" />
   <Project Path="PruebaSistemaExperto/PruebaSistemaExperto.csproj" Id="5a453420-560f-442d-a754-f2a83d388e47" />
   <Project Path="SistemaExperto/SistemaExperto.csproj" Id="01d4c6cd-500c-4377-9872-cf2de936549d" />
 </Solution>
